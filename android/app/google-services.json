@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127618949659",
+    "project_id": "ai-fusion-e3046",
+    "storage_bucket": "ai-fusion-e3046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127618949659:android:a9bb5a7f13a43085020ebe",
+        "android_client_info": {
+          "package_name": "com.example.ridebhaiya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfom3zt9sgT1wnRt6pJbpUs8hRnFYDz2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
