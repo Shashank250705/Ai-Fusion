@@ -24,7 +24,7 @@ class _MarketScreenState extends State<MarketScreen> {
     _loadLikeStatus();
   }
 
-  // Load like status from SharedPreferences
+  // Load like status from SharedPreferences 
   void _loadLikeStatus() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
@@ -32,7 +32,7 @@ class _MarketScreenState extends State<MarketScreen> {
     });
   }
 
-  // Save like status to SharedPreferences
+  // Save like status to SharedPreferences for login
   void _saveLikeStatus(bool isLiked) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('isLiked_$_toolName', isLiked);
